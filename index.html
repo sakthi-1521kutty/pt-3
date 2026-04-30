@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vijay | Soul Reaper of Code</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Rajdhani:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+  
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Hollow flash -->
+<div class="hollow-flash"></div>
+
+<!-- Particle canvas -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- Slash lines -->
+<div class="slash-overlay">
+  <div class="slash-line"></div>
+  <div class="slash-line"></div>
+  <div class="slash-line"></div>
+</div>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <div class="nav-logo">V<span>I</span>JAY</div>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Arsenal</a></li>
+    <li><a href="#projects">Missions</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="spirit-ring"></div>
+    <div class="spirit-ring"></div>
+    <div class="spirit-ring"></div>
+    <div class="spirit-ring"></div>
+  </div>
+  <div class="zanpakuto-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge">⟡ Soul Society — Digital Division ⟡</div>
+    <h1 class="hero-name" data-text="VIJAY">VIJAY</h1>
+    <p class="hero-title">Soul Reaper of <span>Code</span></p>
+    <p class="hero-subtitle">// B.E. Computer Science &nbsp;·&nbsp; 2nd Year &nbsp;·&nbsp; Jerusalem College of Engineering //</p>
+    <div class="hero-cta">
+      <a href="#education" class="btn-primary">My Journey</a>
+      <a href="#projects" class="btn-outline">View Missions</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<div class="spirit-divider"></div>
+
+<!-- ─── ABOUT ─── -->
+<section id="about">
+  <div class="section-wrapper">
+    <div class="about-grid">
+      <!-- Avatar -->
+      <div class="avatar-container reveal">
+        <div>
+          <div class="avatar-frame">
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">VJ</div>
+          </div>
+          <div style="margin-top:32px;">
+            <div class="soul-card" style="text-align:center;">
+              <div class="info-label">Soul Reaper Class</div>
+              <div class="info-value" style="font-size:1.4rem;">★★★☆☆</div>
+              <div class="info-label" style="margin-top:12px;">Reiatsu Level</div>
+              <div class="info-value"><span>RISING</span></div>
+              <div class="info-label">Division</div>
+              <div class="info-value">Squad 00 · <span>CS</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="reveal">
+        <span class="section-tag">// Identity Scroll //</span>
+        <h2 class="section-title">About Me</h2>
+
+        <p class="about-desc">
+          My name is <strong style="color:var(--gold-bright)">Vijay</strong> — a second-year Computer Science student
+          wielding code like a Zanpakuto. Every algorithm I write is a Shikai release; every project I deploy,
+          a Bankai. I walk the path of the Soul Reaper engineer — disciplined, relentless, always evolving.
+        </p>
+        <p class="about-desc">
+          Currently studying at <strong style="color:var(--spirit-blue)">Jerusalem College of Engineering</strong>,
+          pursuing my B.E. in Computer Science. I believe that mastery is not given — it is forged through
+          countless hours of dedication, much like the bond between a Soul Reaper and their Zanpakuto.
+        </p>
+
+        <div style="margin-top:36px;">
+          <div class="reiatsu-bar-wrap">
+            <div class="reiatsu-bar-label"><span>Problem Solving</span><span>85%</span></div>
+            <div class="reiatsu-bar-track"><div class="reiatsu-bar-fill" data-width="85%"></div></div>
+          </div>
+          <div class="reiatsu-bar-wrap">
+            <div class="reiatsu-bar-label"><span>Programming</span><span>80%</span></div>
+            <div class="reiatsu-bar-track"><div class="reiatsu-bar-fill gold" data-width="80%"></div></div>
+          </div>
+          <div class="reiatsu-bar-wrap">
+            <div class="reiatsu-bar-label"><span>Teamwork & Collaboration</span><span>90%</span></div>
+            <div class="reiatsu-bar-track"><div class="reiatsu-bar-fill" data-width="90%"></div></div>
+          </div>
+          <div class="reiatsu-bar-wrap">
+            <div class="reiatsu-bar-label"><span>Continuous Learning</span><span>95%</span></div>
+            <div class="reiatsu-bar-track"><div class="reiatsu-bar-fill gold" data-width="95%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="spirit-divider"></div>
+
+<!-- ─── EDUCATION ─── -->
+<section id="education">
+  <div class="section-wrapper">
+    <span class="section-tag">// Seireitei Academy Records //</span>
+    <h2 class="section-title reveal">Education</h2>
+
+    <div class="edu-card reveal">
+      <div class="edu-badge"><div class="edu-badge-dot"></div> CURRENTLY ENROLLED</div>
+      <div class="edu-college">Jerusalem College of Engineering</div>
+      <div class="edu-degree">Bachelor of Engineering — Computer Science</div>
+      <div class="edu-year">// 2nd Year · 2023 – 2027 · Chennai, Tamil Nadu //</div>
+
+      <div class="edu-stats">
+        <div class="edu-stat">
+          <span class="edu-stat-num">2<span style="font-size:1.2rem;color:var(--spirit-blue)">nd</span></span>
+          <span class="edu-stat-label">Current Year</span>
+        </div>
+        <div class="edu-stat">
+          <span class="edu-stat-num">4</span>
+          <span class="edu-stat-label">Year Journey</span>
+        </div>
+        <div class="edu-stat">
+          <span class="edu-stat-num">∞</span>
+          <span class="edu-stat-label">Possibilities</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="soul-card reveal" style="margin-top:24px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;">
+        <div>
+          <div class="info-label">Institute</div>
+          <div class="info-value">Jerusalem College of Engineering</div>
+          <div class="info-label">Degree</div>
+          <div class="info-value">B.E. Computer Science &amp; Engineering</div>
+        </div>
+        <div>
+          <div class="info-label">Current Year</div>
+          <div class="info-value"><span>2nd Year</span> (Sophomore)</div>
+          <div class="info-label">Duration</div>
+          <div class="info-value">2023 — 2027</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="spirit-divider"></div>
+
+<!-- ─── SKILLS ─── -->
+<section id="skills">
+  <div class="section-wrapper">
+    <span class="section-tag">// Zanpakuto Arsenal //</span>
+    <h2 class="section-title reveal">Tech Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">C / C++</div>
+        <div class="skill-desc">The foundation blade. Low-level mastery, memory management, the raw power of the shikai form.</div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-desc">The serpentine zanpakuto. Versatile, swift, used for automation and algorithmic combat.</div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML / CSS / JS</div>
+        <div class="skill-desc">The Senkaimon key. Opens pathways to the web dimension — building portals between worlds.</div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-name">DBMS / SQL</div>
+        <div class="skill-desc">The Kido of data. Binding spells that organize information in the spirit world's archives.</div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🔢</div>
+        <div class="skill-name">Data Structures</div>
+        <div class="skill-desc">The spiritual pressure architecture. Trees, graphs, stacks — each a different battle formation.</div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🧠</div>
+        <div class="skill-name">OOP Concepts</div>
+        <div class="skill-desc">The Soul Society law. Classes, inheritance and polymorphism — the code of the shinigami.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="spirit-divider"></div>
+
+<!-- ─── PROJECTS ─── -->
+<section id="projects">
+  <div class="section-wrapper">
+    <span class="section-tag">// Soul Society Missions //</span>
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-number">// MISSION 001</div>
+        <div class="project-title">Student Portal System</div>
+        <div class="project-desc">A full-fledged student management dashboard built for managing academic records — the Seireitei database of the digital world.</div>
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">MySQL</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-number">// MISSION 002</div>
+        <div class="project-title">Library Management System</div>
+        <div class="project-desc">A C-based console application for managing book issuance and returns — organizing the scrolls of the Seireitei archive.</div>
+        <div class="project-tags">
+          <span class="tag">C Language</span><span class="tag">File Handling</span><span class="tag">Data Structures</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-number">// MISSION 003</div>
+        <div class="project-title">Personal Portfolio Website</div>
+        <div class="project-desc">This very site — forged with HTML, CSS and JavaScript. A soul's digital manifestation in the World of the Living.</div>
+        <div class="project-tags">
+          <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Anime Theme</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-number">// MISSION 004</div>
+        <div class="project-title">Sorting Algorithm Visualizer</div>
+        <div class="project-desc">A Python script that brings sorting algorithms to life — watching bubble sort rise like a hollow defeated in slow motion.</div>
+        <div class="project-tags">
+          <span class="tag">Python</span><span class="tag">Algorithms</span><span class="tag">Visualization</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="spirit-divider"></div>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="section-wrapper">
+    <div class="contact-inner">
+      <span class="section-tag reveal">// Send a Hellbutterfly //</span>
+      <h2 class="section-title reveal" style="text-align:center;">Contact</h2>
+      <p class="contact-quote reveal">
+        "A Soul Reaper who walks alone is powerful.<br/>
+        A Soul Reaper who <span>connects with others</span> is unstoppable."
+      </p>
+      <div class="contact-links reveal">
+        <a href="mailto:mvijay9840@gmail.com" class="contact-link">
+          <span>✉</span> Email Vijay
+        </a>
+        <a href="https://github.com/vijaym-7088" class="contact-link" target="_blank">
+          <span>⎇</span> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/mvijayvj2006" class="contact-link" target="_blank">
+          <span>in</span> LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="spirit-divider" style="margin-bottom:40px;"></div>
+  <div class="footer-text">
+    © 2024 <span>VIJAY</span> · Jerusalem College of Engineering · B.E. CSE 2nd Year<br/>
+    <span style="font-size:.6rem;opacity:.5;display:block;margin-top:8px;letter-spacing:2px;">
+      "BANKAI — INFINITE CODE RELEASE" · BUILT WITH ⟡ SOUL ENERGY
+    </span>
+  </div>
+</footer>
+
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
